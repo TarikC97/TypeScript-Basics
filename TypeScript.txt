@@ -11,6 +11,10 @@ Only edit TypeScript files.
 In terminal: tsc mydemo.ts(Converting tsc to js file).
 Running file: node mydemo.js.
 
+By default tsc will still generate a .js file even with problems.
+To prevent that: tsc --noEmitOnError Customer.ts
+
+
 Strongly typed:
 	let found: boolean = true
 	//Not allowed - found = 0;(type missmatch).
