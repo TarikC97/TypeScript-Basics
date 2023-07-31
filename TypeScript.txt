@@ -1,0 +1,18 @@
+Web browsers do not understand TypeScript natively.
+
+Have to convert TypeScript code to JavaScript code.
+
+This is known as Transpiling(Translating/Compiling).
+
+Transpiling is accomplished with the tsc command.
+After every change in code we need to transpile tsc file.
+Only edit TypeScript files.
+
+In terminal: tsc mydemo.ts(Converting tsc to js file).
+Running file: node mydemo.js.
+
+Strongly typed:
+	let found: boolean = true
+	//Not allowed - found = 0;(type missmatch).
+	Type:any - Allows every type.
+	let found: any = 50, found = "Radi";
