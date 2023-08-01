@@ -1,7 +1,5 @@
 Web browsers do not understand TypeScript natively.
-
 Have to convert TypeScript code to JavaScript code.
-
 This is known as Transpiling(Translating/Compiling).
 
 Transpiling is accomplished with the tsc command.
@@ -14,6 +12,27 @@ Running file: node mydemo.js.
 By default tsc will still generate a .js file even with problems.
 To prevent that: tsc --noEmitOnError Customer.ts
 
+Accessors - Alternative to get/set methods.
+No return type.
+Accessors only supported in ES5, tsc --target ES5(required in terminal).
+_name(variable convention).
+
+tsconfig.json alternative to manualy adding rules to terminal.
+tsc --init.(Initialize tscconfing.json).
+tsc - compiles all .ts files.
+
+Constructor - Parameter Properties
+Short version of constructor, variables just in const args.
+
+Abstract Class - Represents a general concept(Shape,Computer...)
+Can't create an instance of an abstract class.
+Abstract method must be implemented by concrete subclass.
+
+Class can import multiple interfaces, class must implement interface methods.
+
+CLASS - CLASS -> extends
+CLASS - INTERFACE -> implements
+INTERFACE - INTERFACE ->extends
 
 Strongly typed:
 	let found: boolean = true
