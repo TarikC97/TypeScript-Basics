@@ -28,7 +28,8 @@ Abstract Class - Represents a general concept(Shape,Computer...)
 Can't create an instance of an abstract class.
 Abstract method must be implemented by concrete subclass.
 
-Class can import multiple interfaces, class must implement interface methods.
+Class can import multiple interfaces.
+Class must implement interface methods.
 
 CLASS - CLASS -> extends
 CLASS - INTERFACE -> implements
